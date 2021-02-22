@@ -76,9 +76,3 @@ int WindowManager::initialize_glfw_(){
 
     return 0;
 }
-
-int main(){
-    WindowManager w1(800, 600, "Window");
-    w1.wait_until_closed();
-    return 0;
-}
